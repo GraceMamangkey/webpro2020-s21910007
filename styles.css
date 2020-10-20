@@ -1,16 +1,18 @@
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-size: 2rem; /100%=16px/
-    text-align: center;
+#px{
+    /*satuan unit px memiliki perhitungan 16px= 1 em, "Px" juga tidak berubah satuan defaultnya kecuali jika di zoom */
+    font-size: 20px;
 }
-
-h1 {
-    font-family: "Give You Glory", cursive;
-    font-size: 5.625rem;
-    width: 50%;
-    margin: 0 auto;
+#px2{
+    font-size: 15px;
 }
-
-p {
-    font-family: "Nunito", sans-serif;
+#em{
+    /satuan unit em bersifat dinamis dan juga berpengaruh pada inheritnya jadi ada akumulasi antara tag di bawahnya pada html/
+    font-size: 1em;
+}
+#em2{
+    font-size: 1.3115em;
+}
+#rem{
+    /rem bersifat dinamis tetapi tidak di inherit (diturunkan)/
+    font-size: 1rem;
 }
