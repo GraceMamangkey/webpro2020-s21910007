@@ -1,24 +1,16 @@
-#Box-1{
-    background-color: lightskyblue;
-    padding: 12px;
-    border: 15px solid red;
-    margin: 0px;
-    width: 122px;   
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 2rem; /100%=16px/
+    text-align: center;
 }
 
-#Box-2{
-    background-color: lightskyblue;
-    padding: 12px;
-    border: 15px solid red;
-    margin: 0px;
-    margin-left: 176px;
-    width: 122px;
+h1 {
+    font-family: "Give You Glory", cursive;
+    font-size: 5.625rem;
+    width: 50%;
+    margin: 0 auto;
 }
 
-#Box-3{
-    background-color: lightskyblue;
-    padding: 12px;
-    border: 15px solid red;
-    margin: 0px;
-    margin-left: 352px;
-    width
+p {
+    font-family: "Nunito", sans-serif;
+}
