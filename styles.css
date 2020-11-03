@@ -1,18 +1,43 @@
-#px{
-    /*satuan unit px memiliki perhitungan 16px= 1 em, "Px" juga tidak berubah satuan defaultnya kecuali jika di zoom */
-    font-size: 20px;
+#body {
+    background-image: url(HD-Technology-Wallpaper-3.jpg);
 }
-#px2{
-    font-size: 15px;
+
+#header{
+  color: rgb(17, 0, 0);
 }
-#em{
-    /satuan unit em bersifat dinamis dan juga berpengaruh pada inheritnya jadi ada akumulasi antara tag di bawahnya pada html/
-    font-size: 1em;
+a[href] {
+    background-color: white;
 }
-#em2{
-    font-size: 1.3115em;
+
+a[href*="education"] {
+    background-color: white;
 }
-#rem{
-    /rem bersifat dinamis tetapi tidak di inherit (diturunkan)/
-    font-size: 1rem;
+
+a[href*="hobby"] {
+    background-color: white;
+}
+
+a[href*="skills technology and language"] {
+    background-color: white;
+}
+
+a[href*="contact-me"] {
+    background-color: white;
+}
+
+body {
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em; /100%=16px/
+    text-align: justify;
+}
+
+h1 {
+    font-family: "Give You Glory", cursive;
+    font-size: 2rem;
+    width: 99%;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
 }
